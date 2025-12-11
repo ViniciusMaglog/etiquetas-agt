@@ -237,9 +237,9 @@ export default function HomePage() {
                 doc.addImage(barcodeTop, 'PNG', barcodeX, 18, barcodeW, 12);
                 
                 // Barcode 2 (Baixo)
-                const boxX = barcodeX - 1;
+                //const boxX = barcodeX - 1;
                 const boxY = 44;
-                const boxW = barcodeW + 2;
+                //const boxW = barcodeW + 2;
                 const boxH = 14;
                 
                 doc.setLineWidth(1.5);
